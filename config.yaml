@@ -1,0 +1,12 @@
+wos: true
+scopus: false
+
+input:
+  wos: data/wos_sample.bib
+  scopus: data/fake.bib
+
+format:
+  wos: plaintext
+  scopus: bibtex
+
+

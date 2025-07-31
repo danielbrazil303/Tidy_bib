@@ -4,16 +4,18 @@
 .Rhistory
 .RData
 .Ruserdata
+.Rprofile
 
-# Dados e saídas
+# Output and data
 data/
 output/
 
-# Ambiente e pacotes
+# Environment and packages
 .env
-renv/
+renv/library/
+renv/python/
 
-# Outras sujeiras (caso use)
+# Any other dirt
 .DS_Store
 .ipynb_checkpoints/
-_pycache_/
+__pycache__/
