@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "Tidy_bib: A modular bibliographic cleaning pipeline in R"
+version: "0.1.0"
+authors:
+  - family-names: Arraes
+    given-names: Daniel
+    email: dan.arraes@uece.br
+    affiliation: Universidade Estadual do Ceará (UECE)
+    orcid: "https://orcid.org/0000-0003-0697-2268" 
+date-released: 2025-07-30
+license: MIT
+repository-code: https://github.com/danielbrazil303/Tidy_bib

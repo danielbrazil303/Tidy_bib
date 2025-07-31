@@ -1,0 +1,29 @@
+Package: TidyBib
+Type: Project
+Title: Modular Bibliographic Cleaning Pipeline
+Version: 0.1.0
+Authors@R: 
+    person(given = "Daniel",
+           family = "Arraes",
+           email = "dan.arraes@uece.br",
+           role = c("aut", "cre"))
+Description: A modular and reproducible pipeline for cleaning and organizing bibliographic data exported from databases such as Web of Science and Scopus. Prepares data for use with bibliometrix and for enrichment via APIs like Crossref, OpenAlex, and ROR.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.2.0)
+Imports: 
+    bibliometrix,
+    yaml,
+    here,
+    fs,
+    dplyr,
+    stringr,
+    glue
+Suggests: 
+    testthat (>= 3.0.0),
+    openxlsx,
+    renv
+Config/testthat/edition: 3

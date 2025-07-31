@@ -1,0 +1,19 @@
+# IDE / Session
+*.Rproj
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Dados e saídas
+data/
+output/
+
+# Ambiente e pacotes
+.env
+renv/
+
+# Outras sujeiras (caso use)
+.DS_Store
+.ipynb_checkpoints/
+_pycache_/
